@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fenster- & Gebäudereinigung Frankfurt | klar & Sauber</title>
+<meta name="description" content="klar & Sauber – Fenster- und Gebäudereinigung in Frankfurt am Main. Gebäude-, Grund-, Büro- und Fassadenreinigung sowie Hausmeisterservice. Seit 2015 für Privat- und Gewerbekunden. Kostenlose Anfrage in 2 Minuten.">
+<meta name="theme-color" content="#0F3D3A">
+<meta property="og:title" content="klar & Sauber – Fenster- und Gebäudereinigung Frankfurt">
+<meta property="og:description" content="Gebäude-, Fenster-, Fassaden- und Büroreinigung sowie Hausmeisterservice in Frankfurt am Main. Seit 2015. Privat & Gewerbe.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:image" content="assets/icon-512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "klar & Sauber – Fenster- und Gebäudereinigung",
+  "image": "assets/icon-512.png",
+  "telephone": "+491728003571",
+  "email": "h.foda09.08@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Gerhart-Hauptmann-Ring 414",
+    "addressLocality": "Frankfurt am Main",
+    "postalCode": "60439",
+    "addressCountry": "DE"
+  },
+  "areaServed": "Frankfurt am Main und Umgebung",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "08:00",
+    "closes": "20:00"
+  },
+  "priceRange": "€€",
+  "foundingDate": "2015",
+  "makesOffer": [
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Gebäudereinigung"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Grundreinigung"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Fensterreinigung"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Büroreinigung"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Fassadenreinigung"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Treppenhausreinigung"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Hausmeisterservice"}}
+  ]
+}
+</script>
+<style>
+  :root{
+    --bg:#F5F8F7;
+    --surface:#FFFFFF;
+    --ink:#0F2427;
+    --ink-soft:#4E6264;
+    --teal-900:#0B2E2C;
+    --teal-800:#0F3D3A;
+    --teal-700:#1B6F68;
+    --teal-500:#2E9C8F;
+    --teal-100:#E4F2EF;
+    --gold-500:#E3AC3C;
+    --gold-600:#C6902A;
+    --line:#D9E5E2;
+    --radius:3px;
+    --shadow:0 12px 28px -14px rgba(11,46,44,0.35);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    line-height:1.55;
+  }
+  h1,h2,h3,.display{
+    font-family:'Big Shoulders Display',system-ui,sans-serif;
+    text-transform:uppercase;
+    letter-spacing:0.01em;
+    font-weight:800;
+    line-height:0.98;
+    margin:0;
+    color:var(--teal-900);
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.72rem;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--teal-700);
+    font-weight:500;
+  }
+  p{margin:0;}
+  a{color:inherit;text-decoration:none;}
+  img,svg{display:block;max-width:100%;}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px;}
+  section{padding:88px 0;}
+  @media (max-width:720px){ section{padding:56px 0;} }
+
+  /* ---------- Buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;gap:10px;
+    padding:15px 26px;
+    border-radius:var(--radius);
+    font-weight:700;font-size:0.98rem;
+    border:2px solid transparent;
+    cursor:pointer;
+    transition:transform .15s ease, box-shadow .15s ease, background .15s ease;
+    white-space:nowrap;
+  }
+  .btn-gold{
+    background:var(--gold-500);color:var(--teal-900);
+    box-shadow:0 10px 24px -10px rgba(227,172,60,0.7);
+  }
+  .btn-gold:hover{background:var(--gold-600);transform:translateY(-1px);}
+  .btn-ghost{
+    background:transparent;border-color:rgba(255,255,255,0.4);color:#fff;
+  }
+  .btn-ghost:hover{border-color:#fff;}
+  .btn-outline-dark{
+    background:transparent;border-color:var(--teal-800);color:var(--teal-800);
+  }
+  .btn-outline-dark:hover{background:var(--teal-800);color:#fff;}
+  .btn-block{width:100%;justify-content:center;}
+  .btn-call{
+    background:transparent;border-color:var(--teal-700);color:var(--teal-800);
+  }
+  .btn-call:hover{background:var(--teal-700);color:#fff;}
+  .btn-call.on-dark{border-color:rgba(255,255,255,0.5);color:#fff;}
+  .btn-call.on-dark:hover{background:rgba(255,255,255,0.12);}
+  .btn .i{width:17px;height:17px;flex:none;}
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(245,248,247,0.9);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:16px 24px;max-width:1180px;margin:0 auto;
+  }
+  .brand{
+    display:flex;align-items:center;gap:11px;
+    font-family:'Big Shoulders Display',sans-serif;
+    font-weight:800;font-size:1.35rem;text-transform:uppercase;
+    color:var(--teal-900);letter-spacing:0.01em;
+  }
+  .brand-mark{width:42px;height:42px;border-radius:50%;box-shadow:0 0 0 2px var(--surface),0 0 0 3px var(--line);}
+  .brand span{color:var(--gold-600);}
+  .nav-links{display:flex;gap:32px;align-items:center;}
+  .nav-links a{font-weight:600;font-size:0.93rem;color:var(--ink-soft);}
+  .nav-links a:hover{color:var(--teal-800);}
+  .nav-cta{display:flex;align-items:center;gap:10px;}
+  .nav-toggle{display:none;background:none;border:0;cursor:pointer;padding:6px;}
+  .nav-toggle span{display:block;width:24px;height:2px;background:var(--teal-900);margin:5px 0;}
+
+  @media (max-width:900px){
+    .nav-links{
+      position:fixed;inset:64px 0 0 0;background:var(--surface);
+      flex-direction:column;padding:32px 24px;gap:22px;
+      transform:translateY(-110%);transition:transform .25s ease;
+      border-bottom:1px solid var(--line);
+    }
+    .nav-links.open{transform:translateY(0);}
+    .nav-toggle{display:block;}
+    .nav-cta .btn span.long{display:none;}
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    position:relative;overflow:hidden;
+    background:linear-gradient(180deg,var(--teal-900) 0%,var(--teal-800) 62%,#0B2422 100%);
+    color:#fff;padding:72px 0 0;
+  }
+  .hero-inner{
+    max-width:1180px;margin:0 auto;padding:0 24px;
+    display:grid;grid-template-columns:1.05fr 0.95fr;gap:40px;align-items:center;
+  }
+  @media (max-width:900px){ .hero-inner{grid-template-columns:1fr;} }
+  .hero-copy .eyebrow{color:var(--gold-500);}
+  .hero h1{
+    color:#fff;
+    font-size:clamp(2.6rem,5.4vw,4.4rem);
+    margin:14px 0 20px;
+  }
+  .hero h1 em{font-style:normal;color:var(--gold-500);}
+  .hero p.lead{
+    font-size:1.1rem;color:rgba(255,255,255,0.82);max-width:46ch;margin-bottom:30px;
+  }
+  .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:34px;}
+  .trust-bar{
+    display:flex;flex-wrap:wrap;gap:22px;
+    border-top:1px solid rgba(255,255,255,0.16);padding-top:22px;
+  }
+  .trust-bar div{font-size:0.85rem;color:rgba(255,255,255,0.75);}
+  .trust-bar strong{display:block;font-family:'Big Shoulders Display';font-size:1.5rem;color:#fff;font-weight:700;}
+
+  /* Skyline wipe signature */
+  .skyline-stage{
+    position:relative;height:420px;border-radius:var(--radius);overflow:hidden;
+  }
+  .skyline-stage svg{position:absolute;inset:0;width:100%;height:100%;}
+  .skyline-hazy{filter:grayscale(1) blur(2px) brightness(0.55);opacity:0.9;}
+  .skyline-clear{
+    clip-path:polygon(0 0,0 0,0 100%,0 100%);
+    animation:wipeReveal 2.2s 0.4s cubic-bezier(.65,0,.35,1) forwards;
+  }
+  .streak{
+    position:absolute;top:0;bottom:0;width:70px;
+    background:linear-gradient(100deg,transparent,rgba(255,255,255,0.55),transparent);
+    left:-10%;
+    animation:streakMove 2.2s 0.4s cubic-bezier(.65,0,.35,1) forwards;
+    mix-blend-mode:screen;
+  }
+  @keyframes wipeReveal{
+    0%{clip-path:polygon(0 0,0 0,0 100%,0 100%);}
+    100%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);}
+  }
+  @keyframes streakMove{
+    0%{left:-10%;}
+    100%{left:104%;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .skyline-clear{animation:none;clip-path:polygon(0 0,100% 0,100% 100%,0 100%);}
+    .streak{display:none;}
+  }
+  .skyline-caption{
+    position:absolute;bottom:14px;left:16px;
+    font-family:'IBM Plex Mono',monospace;font-size:0.7rem;letter-spacing:0.08em;
+    color:rgba(255,255,255,0.75);text-transform:uppercase;
+  }
+
+  /* ---------- Section headers ---------- */
+  .sec-head{max-width:640px;margin-bottom:48px;}
+  .sec-head h2{font-size:clamp(2rem,4vw,2.8rem);margin-top:10px;}
+  .sec-head p{color:var(--ink-soft);margin-top:14px;font-size:1.05rem;}
+  .sec-head.center{margin-left:auto;margin-right:auto;text-align:center;}
+
+  /* ---------- Services ---------- */
+  .services-grid{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:2px;
+    background:var(--line);border:1px solid var(--line);
+  }
+  @media (max-width:900px){ .services-grid{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:600px){ .services-grid{grid-template-columns:1fr;} }
+  .service-card{
+    background:var(--surface);padding:34px 28px;
+    transition:background .2s ease;
+  }
+  .service-card:hover{background:var(--teal-100);}
+  .service-card .icon{
+    width:44px;height:44px;color:var(--teal-700);margin-bottom:18px;
+  }
+  .service-card h3{
+    font-size:1.3rem;color:var(--teal-900);margin-bottom:10px;text-transform:none;letter-spacing:0;
+  }
+  .service-card p{color:var(--ink-soft);font-size:0.95rem;}
+
+  /* ---------- Why us ---------- */
+  .why{background:var(--teal-900);color:#fff;}
+  .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start;}
+  @media (max-width:900px){ .why-grid{grid-template-columns:1fr;gap:36px;} }
+  .why .eyebrow{color:var(--gold-500);}
+  .why h2{color:#fff;font-size:clamp(1.9rem,3.6vw,2.6rem);margin-top:10px;}
+  .why-lead{color:rgba(255,255,255,0.78);margin-top:18px;font-size:1.05rem;max-width:48ch;}
+  .stat-list{display:grid;grid-template-columns:1fr 1fr;gap:28px 24px;}
+  .stat{border-top:1px solid rgba(255,255,255,0.18);padding-top:16px;}
+  .stat strong{
+    display:block;font-family:'Big Shoulders Display';font-size:2.3rem;color:var(--gold-500);font-weight:700;
+  }
+  .stat span{color:rgba(255,255,255,0.75);font-size:0.9rem;}
+
+  /* ---------- Process ---------- */
+  .process-list{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--line);border:1px solid var(--line);}
+  @media (max-width:800px){ .process-list{grid-template-columns:1fr;} }
+  .process-step{background:var(--surface);padding:36px 30px;position:relative;}
+  .process-num{
+    font-family:'Big Shoulders Display';font-size:1rem;color:var(--gold-600);
+    font-weight:700;letter-spacing:0.05em;
+  }
+  .process-step h3{margin-top:12px;font-size:1.3rem;color:var(--teal-900);text-transform:none;letter-spacing:0;}
+  .process-step p{margin-top:10px;color:var(--ink-soft);font-size:0.95rem;}
+
+  /* ---------- Area ---------- */
+  .area{
+    display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;
+  }
+  @media (max-width:900px){ .area{grid-template-columns:1fr;} }
+  .area-copy p{color:var(--ink-soft);margin-top:16px;}
+  .chip-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;}
+  .chip{
+    border:1px solid var(--teal-700);color:var(--teal-800);
+    padding:7px 14px;border-radius:999px;font-size:0.85rem;font-weight:600;
+  }
+  .area-visual{
+    background:var(--teal-100);border:1px solid var(--line);border-radius:var(--radius);
+    padding:32px;
+  }
+  .area-visual svg{width:100%;height:auto;}
+
+  /* ---------- Contact ---------- */
+  .contact{background:var(--surface);border-top:1px solid var(--line);}
+  .contact-grid{display:grid;grid-template-columns:0.9fr 1.1fr;gap:56px;}
+  @media (max-width:900px){ .contact-grid{grid-template-columns:1fr;} }
+  .info-block{margin-bottom:26px;}
+  .info-block .eyebrow{display:block;margin-bottom:6px;}
+  .info-block a, .info-block div.val{font-size:1.15rem;font-weight:600;color:var(--teal-900);}
+  .hours-table{width:100%;border-collapse:collapse;margin-top:6px;font-size:0.92rem;}
+  .hours-table td{padding:5px 0;color:var(--ink-soft);}
+  .hours-table td:last-child{text-align:right;font-weight:600;color:var(--ink);}
+
+  form{background:var(--teal-100);border:1px solid var(--line);border-radius:var(--radius);padding:32px;}
+  .form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;}
+  @media (max-width:560px){ .form-row{grid-template-columns:1fr;} }
+  label{display:block;font-size:0.82rem;font-weight:600;color:var(--teal-800);margin-bottom:6px;}
+  input,select,textarea{
+    width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:var(--radius);
+    font-family:'Inter';font-size:0.95rem;background:#fff;color:var(--ink);
+  }
+  input:focus,select:focus,textarea:focus{outline:3px solid var(--teal-500);outline-offset:1px;border-color:var(--teal-700);}
+  textarea{resize:vertical;min-height:100px;}
+  .form-foot{margin-top:6px;font-size:0.78rem;color:var(--ink-soft);}
+  .form-status{margin-top:14px;font-size:0.9rem;font-weight:600;color:var(--teal-800);display:none;}
+
+  /* ---------- Footer ---------- */
+  footer{background:var(--teal-900);color:rgba(255,255,255,0.7);padding:48px 0 26px;}
+  .footer-grid{display:flex;justify-content:space-between;flex-wrap:wrap;gap:24px;padding-bottom:28px;border-bottom:1px solid rgba(255,255,255,0.15);}
+  .footer-brand{font-family:'Big Shoulders Display';color:#fff;font-size:1.3rem;font-weight:800;text-transform:uppercase;}
+  .footer-links{display:flex;gap:26px;flex-wrap:wrap;font-size:0.88rem;}
+  .footer-links a:hover{color:#fff;}
+  .footer-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;padding-top:20px;font-size:0.8rem;}
+
+  .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}
+  :focus-visible{outline:3px solid var(--gold-500);outline-offset:2px;}
+
+  /* ---------- Sticky mobile call bar ---------- */
+  .sticky-cta{display:none;}
+  @media (max-width:760px){
+    body{padding-bottom:64px;}
+    .sticky-cta{
+      display:grid;grid-template-columns:1fr 1fr;
+      position:fixed;left:0;right:0;bottom:0;z-index:60;
+      box-shadow:0 -10px 26px -12px rgba(11,46,44,0.4);
+      padding-bottom:env(safe-area-inset-bottom,0);
+    }
+    .sticky-cta a{
+      display:flex;align-items:center;justify-content:center;gap:8px;
+      padding:16px 10px;font-weight:700;font-size:0.92rem;
+    }
+    .sticky-cta a .i{width:17px;height:17px;}
+    .sticky-cta .sc-call{background:var(--teal-800);color:#fff;}
+    .sticky-cta .sc-gold{background:var(--gold-500);color:var(--teal-900);}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <a href="#top" class="brand">
+      <img src="assets/logo.png" alt="klar & Sauber Gebäudereinigung" class="brand-mark" width="42" height="42">
+      klar<span>&</span>Sauber
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="#leistungen">Leistungen</a>
+      <a href="#warum-wir">Warum wir</a>
+      <a href="#ablauf">Ablauf</a>
+      <a href="#einsatzgebiet">Einsatzgebiet</a>
+      <a href="#kontakt">Kontakt</a>
+    </div>
+    <div class="nav-cta">
+      <a href="tel:+491728003571" class="btn btn-call" aria-label="Anrufen: 0172 8003571">
+        <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="long">0172 8003571</span>
+      </a>
+      <a href="#kontakt" class="btn btn-gold"><span class="long">Kostenlose&nbsp;</span>Anfrage</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" style="padding-top:64px;">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow">Fenster- &amp; Gebäudereinigung · Frankfurt am Main</span>
+        <h1>Ihr <em>Durchblick</em><br>beginnt hier.</h1>
+        <p class="lead">Von der einzelnen Fensterfront bis zur kompletten Gebäudepflege: klar &amp; Sauber sorgt seit 2015 in Frankfurt und Umgebung für streifenfreie Sauberkeit – zuverlässig, versichert und zum Festpreis.</p>
+        <div class="hero-actions">
+          <a href="#kontakt" class="btn btn-gold">Kostenloses Angebot anfordern</a>
+          <a href="tel:+491728003571" class="btn btn-call on-dark">
+            <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            0172 8003571
+          </a>
+        </div>
+        <p style="margin:-10px 0 26px;"><a href="#leistungen" style="font-size:0.9rem;font-weight:600;color:rgba(255,255,255,0.72);border-bottom:1px solid rgba(255,255,255,0.35);">Leistungen ansehen ↓</a></p>
+        <div class="trust-bar">
+          <div><strong>2015</strong>Gegründet</div>
+          <div><strong>Privat &amp; Gewerbe</strong>Beide Zielgruppen</div>
+          <div><strong>8–20 Uhr</strong>Täglich erreichbar</div>
+          <div><strong>Frankfurt</strong>&amp; Umgebung</div>
+        </div>
+      </div>
+      <div class="hero-media">
+        <div class="skyline-stage" role="img" aria-label="Skyline von Frankfurt, dargestellt im Übergang von trüb zu klar gereinigt">
+          <svg class="skyline-hazy" viewBox="0 0 600 420" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="420" fill="#0B2422"/>
+            <g fill="#3E6B67">
+              <rect x="20" y="230" width="60" height="190"/>
+              <rect x="90" y="170" width="46" height="250"/>
+              <rect x="150" y="260" width="50" height="160"/>
+              <rect x="212" y="120" width="54" height="300"/>
+              <polygon points="212,120 239,90 266,120"/>
+              <rect x="280" y="200" width="46" height="220"/>
+              <rect x="336" y="90" width="58" height="330"/>
+              <rect x="404" y="240" width="50" height="180"/>
+              <rect x="464" y="150" width="46" height="270"/>
+              <polygon points="464,150 487,118 510,150"/>
+              <rect x="520" y="210" width="60" height="210"/>
+            </g>
+          </svg>
+          <svg class="skyline-clear" viewBox="0 0 600 420" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="420" fill="#0F3D3A"/>
+            <g fill="#2E9C8F">
+              <rect x="20" y="230" width="60" height="190"/>
+              <rect x="90" y="170" width="46" height="250"/>
+              <rect x="150" y="260" width="50" height="160"/>
+              <rect x="212" y="120" width="54" height="300"/>
+              <polygon points="212,120 239,90 266,120"/>
+              <rect x="280" y="200" width="46" height="220"/>
+              <rect x="336" y="90" width="58" height="330"/>
+              <rect x="404" y="240" width="50" height="180"/>
+              <rect x="464" y="150" width="46" height="270"/>
+              <polygon points="464,150 487,118 510,150"/>
+              <rect x="520" y="210" width="60" height="210"/>
+            </g>
+            <g fill="#E3AC3C" opacity="0.85">
+              <rect x="26" y="242" width="6" height="8"/><rect x="40" y="242" width="6" height="8"/><rect x="54" y="242" width="6" height="8"/>
+              <rect x="26" y="266" width="6" height="8"/><rect x="40" y="266" width="6" height="8"/><rect x="54" y="266" width="6" height="8"/>
+              <rect x="220" y="140" width="6" height="8"/><rect x="234" y="140" width="6" height="8"/><rect x="248" y="140" width="6" height="8"/>
+              <rect x="220" y="164" width="6" height="8"/><rect x="234" y="164" width="6" height="8"/><rect x="248" y="164" width="6" height="8"/>
+              <rect x="344" y="110" width="6" height="8"/><rect x="358" y="110" width="6" height="8"/><rect x="372" y="110" width="6" height="8"/>
+              <rect x="344" y="134" width="6" height="8"/><rect x="358" y="134" width="6" height="8"/><rect x="372" y="134" width="6" height="8"/>
+            </g>
+          </svg>
+          <div class="streak"></div>
+          <span class="skyline-caption">Trüb → Klar</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="leistungen">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Leistungen</span>
+        <h2>Gebäudereinigung aus einer Hand.</h2>
+        <p>Ob einmalige Grundreinigung oder regelmäßige Objektbetreuung – wir stimmen den Umfang genau auf Ihre Immobilie ab.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="6" width="36" height="36" rx="1"/><line x1="24" y1="6" x2="24" y2="42"/><line x1="6" y1="24" x2="42" y2="24"/></svg>
+          <h3>Fensterreinigung</h3>
+          <p>Streifenfreie Fenster innen und außen – vom Wohnhaus bis zur Bürofassade, auf Wunsch mit Reinwassertechnik.</p>
+        </div>
+
+        <div class="service-card">
+          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="8" y="14" width="32" height="26" rx="1"/><path d="M16 14V9a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5"/><line x1="8" y1="24" x2="40" y2="24"/></svg>
+          <h3>Grundreinigung</h3>
+          <p>Intensive Tiefenreinigung für Böden, Fugen und Oberflächen – ideal beim Einzug, Auszug oder als Neustart.</p>
+        </div>
+
+        <div class="service-card">
+          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="8" y="16" width="32" height="24" rx="1"/><path d="M18 16v-4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4"/><line x1="8" y1="26" x2="40" y2="26"/><line x1="20" y1="26" x2="20" y2="40"/><line x1="28" y1="26" x2="28" y2="40"/></svg>
+          <h3>Büroreinigung</h3>
+          <p>Regelmäßige Unterhaltsreinigung für Büros und Praxen – abgestimmt auf Ihre Öffnungszeiten, diskret und gründlich.</p>
+        </div>
+
+        <div class="service-card">
+          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 40V12l16-6 16 6v28"/><line x1="8" y1="40" x2="40" y2="40"/><line x1="16" y1="20" x2="16" y2="40"/><line x1="24" y1="16" x2="24" y2="40"/><line x1="32" y1="20" x2="32" y2="40"/></svg>
+          <h3>Fassadenreinigung</h3>
+          <p>Schonende Reinigung von Putz-, Klinker- und Glasfassaden – für einen gepflegten ersten Eindruck Ihrer Immobilie.</p>
+        </div>
+
+        <div class="service-card">
+          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 40h32"/><path d="M10 40V32l6-2v10"/><path d="M16 32v-8l6-2v18"/><path d="M22 24v-8l6-2v26"/></svg>
+          <h3>Treppenhausreinigung</h3>
+          <p>Saubere, sichere Treppenhäuser durch feste Reinigungsintervalle – zuverlässig auch bei hoher Frequentierung.</p>
+        </div>
+
+        <div class="service-card">
+          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M27 8a6 6 0 0 0-8.5 7.5L8 26l4 4 10.5-10.5A6 6 0 0 0 30 11l-5 5-3-3z"/><circle cx="14" cy="34" r="4"/></svg>
+          <h3>Hausmeisterservice</h3>
+          <p>Kleinere Reparaturen, Kontrollgänge und Objektbetreuung – ein fester Ansprechpartner für alles rund ums Gebäude.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why" id="warum-wir">
+    <div class="wrap why-grid">
+      <div>
+        <span class="eyebrow">Warum klar &amp; Sauber</span>
+        <h2>Erfahrung, die man sieht – an jedem Fenster.</h2>
+        <p class="why-lead">Seit 2015 reinigen wir Gebäude in Frankfurt für Privatpersonen ebenso wie für Unternehmen. Feste Ansprechpartner, klare Preise und Termine, die zu Ihrem Alltag passen.</p>
+        <div style="margin-top:32px;">
+          <a href="#kontakt" class="btn btn-gold">Jetzt Angebot einholen</a>
+        </div>
+      </div>
+      <div class="stat-list">
+        <div class="stat"><strong>Seit 2015</strong><span>am Markt in Frankfurt</span></div>
+        <div class="stat"><strong>Festpreis</strong><span>keine versteckten Kosten</span></div>
+        <div class="stat"><strong>7 Tage</strong><span>von 8–20 Uhr erreichbar</span></div>
+        <div class="stat"><strong>2 Zielgruppen</strong><span>Privat &amp; Gewerbe</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="ablauf">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Ablauf</span>
+        <h2>In drei Schritten zu klaren Fenstern.</h2>
+        <p>Der Weg von der ersten Anfrage bis zur fertigen Reinigung ist bei uns kurz und unkompliziert.</p>
+      </div>
+      <div class="process-list">
+        <div class="process-step">
+          <span class="process-num">01 · Anfrage</span>
+          <h3>Formular oder E-Mail</h3>
+          <p>Sie schildern kurz Objekt, Größe und Wunschleistung – online oder per E-Mail.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-num">02 · Angebot</span>
+          <h3>Festpreis erhalten</h3>
+          <p>Wir melden uns mit einem unverbindlichen Festpreisangebot, bei Bedarf nach kurzer Vor-Ort-Besichtigung.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-num">03 · Reinigung</span>
+          <h3>Termin & Durchführung</h3>
+          <p>Wir vereinbaren einen passenden Termin und übernehmen die Reinigung – zuverlässig und gründlich.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AREA -->
+  <section id="einsatzgebiet">
+    <div class="wrap area">
+      <div class="area-copy">
+        <span class="eyebrow">Einsatzgebiet</span>
+        <h2>Zuhause in Frankfurt<br>am Main.</h2>
+        <p>Mit Sitz im Gerhart-Hauptmann-Ring sind wir schnell in ganz Frankfurt und im Umland vor Ort – für Privathaushalte genauso wie für Büros, Praxen und Mehrfamilienhäuser.</p>
+        <div class="chip-row">
+          <span class="chip">Niederursel</span>
+          <span class="chip">Innenstadt</span>
+          <span class="chip">Bockenheim</span>
+          <span class="chip">Westend</span>
+          <span class="chip">Sachsenhausen</span>
+          <span class="chip">Umland auf Anfrage</span>
+        </div>
+      </div>
+      <div class="area-visual">
+        <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="200" cy="130" r="118" fill="none" stroke="#1B6F68" stroke-width="1" stroke-dasharray="4 6"/>
+          <circle cx="200" cy="130" r="70" fill="none" stroke="#1B6F68" stroke-width="1" stroke-dasharray="4 6"/>
+          <g fill="#0F3D3A">
+            <rect x="180" y="150" width="10" height="26"/>
+            <rect x="194" y="140" width="10" height="36"/>
+            <rect x="208" y="158" width="10" height="18"/>
+          </g>
+          <circle cx="199" cy="132" r="5" fill="#E3AC3C"/>
+          <text x="210" y="120" font-family="IBM Plex Mono, monospace" font-size="10" fill="#0F3D3A">Gerhart-Hauptmann-Ring</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="kontakt">
+    <div class="wrap contact-grid">
+      <div>
+        <span class="eyebrow">Kontakt</span>
+        <h2 style="margin-top:10px;font-size:clamp(1.9rem,3.6vw,2.4rem);">Fordern Sie Ihr<br>Angebot an.</h2>
+        <p style="color:var(--ink-soft);margin-top:14px;">Schreiben Sie uns – wir antworten in der Regel innerhalb eines Werktags mit einem Festpreisangebot.</p>
+
+        <div style="margin-top:32px;">
+          <div class="info-block">
+            <span class="eyebrow">Telefon</span>
+            <a href="tel:+491728003571">0172 8003571</a>
+          </div>
+          <div class="info-block">
+            <span class="eyebrow">E-Mail</span>
+            <a href="mailto:h.foda09.08@gmail.com">h.foda09.08@gmail.com</a>
+          </div>
+          <div class="info-block">
+            <span class="eyebrow">Adresse</span>
+            <div class="val">Gerhart-Hauptmann-Ring 414<br>60439 Frankfurt am Main</div>
+          </div>
+          <div class="info-block">
+            <span class="eyebrow">Erreichbarkeit</span>
+            <table class="hours-table">
+              <tr><td>Montag – Sonntag</td><td>8:00 – 20:00 Uhr</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <form id="contactForm" novalidate>
+        <div class="form-row">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+          <div>
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+        </div>
+        <div class="form-row">
+          <div>
+            <label for="ort">Ort / Stadtteil</label>
+            <input type="text" id="ort" name="ort" autocomplete="address-level2">
+          </div>
+          <div>
+            <label for="leistung">Gewünschte Leistung</label>
+            <select id="leistung" name="leistung">
+              <option>Gebäudereinigung</option>
+              <option>Grundreinigung</option>
+              <option>Fensterreinigung</option>
+              <option>Büroreinigung</option>
+              <option>Fassadenreinigung</option>
+              <option>Treppenhausreinigung</option>
+              <option>Hausmeisterservice</option>
+              <option>Sonstiges</option>
+            </select>
+          </div>
+        </div>
+        <div style="margin-bottom:16px;">
+          <label for="nachricht">Nachricht</label>
+          <textarea id="nachricht" name="nachricht" placeholder="Objektgröße, Wunschtermin, Besonderheiten ..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold btn-block">Anfrage senden</button>
+        <p class="form-foot">Beim Absenden öffnet sich Ihr E-Mail-Programm mit einer vorausgefüllten Nachricht an h.foda09.08@gmail.com.</p>
+        <p class="form-status" id="formStatus">E-Mail-Entwurf wurde geöffnet – bitte im E-Mail-Programm abschicken.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div style="display:flex;align-items:center;gap:16px;">
+        <img src="assets/logo.png" alt="klar & Sauber Gebäudereinigung" width="56" height="56" style="border-radius:50%;box-shadow:0 0 0 3px rgba(255,255,255,0.12);">
+        <div>
+          <div class="footer-brand">klar &amp; Sauber</div>
+          <p style="margin-top:8px;font-size:0.88rem;">Fenster- &amp; Gebäudereinigung · Frankfurt am Main · seit 2015</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#leistungen">Leistungen</a>
+        <a href="#warum-wir">Warum wir</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> klar &amp; Sauber Gebäudereinigung</span>
+      <span>Gerhart-Hauptmann-Ring 414, 60439 Frankfurt am Main · Tel. <a href="tel:+491728003571" style="color:rgba(255,255,255,0.85);">0172 8003571</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky-cta" aria-label="Schnellkontakt">
+  <a href="tel:+491728003571" class="sc-call">
+    <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    Anrufen
+  </a>
+  <a href="#kontakt" class="sc-gold">Angebot anfordern</a>
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', open);
+  });
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  }));
+
+  const form = document.getElementById('contactForm');
+  const status = document.getElementById('formStatus');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const ort = document.getElementById('ort').value.trim();
+    const leistung = document.getElementById('leistung').value;
+    const nachricht = document.getElementById('nachricht').value.trim();
+
+    const subject = encodeURIComponent('Anfrage: ' + leistung + (ort ? ' – ' + ort : ''));
+    const body = encodeURIComponent(
+      'Name: ' + name + '\n' +
+      'E-Mail: ' + email + '\n' +
+      'Ort/Stadtteil: ' + ort + '\n' +
+      'Gewünschte Leistung: ' + leistung + '\n\n' +
+      'Nachricht:\n' + nachricht
+    );
+    window.location.href = 'mailto:h.foda09.08@gmail.com?subject=' + subject + '&body=' + body;
+    status.style.display = 'block';
+  });
+</script>
+
+</body>
+</html>
